@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
+header>*{
+    margin-top: 10px;
+}
+
+header img{
+    width: 100px;
+}
+
+table{
+    font-size: 1.5em;
+}
+
+main>a{
+    text-decoration: none;
+    padding: 20px;
+    display: block;
+    background-color: #eee;
+    color: black;
+    font-size: 2em;
+    margin-top: 30px;
+}
+
+.center-vertical{
+    margin-top: auto;
+    margin-bottom: auto;    
+}
+
+.lista{
+    width: 80%;
+    margin: auto;
+}
+
+table{
+    padding-bottom: 50px;
+}
+
+.lista table thead{
+    background-color: #eee;
+}
+
+.lista table tbody tr td a{
+    margin-left: 15px;
+}
+
+.lista table{
+    width: 100%;
+}
+
+main form{
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;    
+    margin: auto;    
+    font-size: 1.0em;
+    padding-bottom: 25px;
+    padding-top: 25px;
+}
+
+main #resultado{
+    font-size: 1.5em;
+}
+
+main #resultado *{
+    margin-top: 10px;
+}
+
+main form .campo *, main form button{
+    margin-top: 5px;
+}
+
+main form button, select{
+    font-size: 1.0em;
+    padding: 10px;
+    margin-top: 15px;
+}
+
+main form .campo{
+    display: flex;
+    flex-direction: column;
+}
+
+main form .campo input{
+    font-size: 1.5em;
+}
+
+footer{
+    margin-top: auto;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+footer a{
+    color: white;
+}
+
+.erro{
+    color:red;
+    text-align: center;
+}
